@@ -50,7 +50,7 @@ public class CreateNotificationView extends JFrame{
             Integer _hour = (Integer) __hourComboBox.getSelectedItem();
             Integer _min = (Integer) __minComboBox.getSelectedItem();
             Integer _sec = (Integer) __secComboBox.getSelectedItem();
-            __mainView.setNotificationData(_name, _msg, _hour, _sec, _min);
+            __mainView.setNotificationData(_name, _msg, _hour, _min, _sec);
         });
     }
 
